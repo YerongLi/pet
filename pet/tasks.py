@@ -22,7 +22,7 @@ from abc import ABC, abstractmethod
 from collections import defaultdict, Counter
 from typing import List, Dict, Callable, Union, Tuple
 
-from datasets import load_dataset
+# from datasets import load_dataset
 
 import log
 from pet import task_helpers
