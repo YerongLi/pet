@@ -22,7 +22,7 @@ from typing import List, Dict
 
 import numpy as np
 import torch
-from datasets import load_metric
+# from datasets import load_metric
 from sklearn.metrics import f1_score
 from transformers.data.metrics import simple_accuracy
 
