@@ -836,6 +836,8 @@ class AeslcProcessor(GenerativeDataProcessor):
 
     @staticmethod
     def load_and_split_dataset(dataset_name: Union[str, Tuple[str]]):
+        print('dataset_name')
+        print(dataset_name)
         if isinstance(dataset_name, tuple):
             ds = load_dataset(*dataset_name)
         elif isinstance(dataset_name, dict):
